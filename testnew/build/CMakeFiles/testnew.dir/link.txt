@@ -1,0 +1,3 @@
+C:\CMake\bin\cmake.exe -E rm -f CMakeFiles\testnew.dir/objects.a
+C:\Users\SongShijie\mingw64\bin\ar.exe qc CMakeFiles\testnew.dir/objects.a @CMakeFiles\testnew.dir\objects1.rsp
+C:\Users\SongShijie\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\testnew.dir/objects.a -Wl,--no-whole-archive -o testnew.exe -Wl,--out-implib,libtestnew.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\testnew.dir\linkLibs.rsp
