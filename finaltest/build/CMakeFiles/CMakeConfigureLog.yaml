@@ -1,0 +1,333 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is Clang, found in:
+        D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/3.29.2/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is Clang, found in:
+        D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/3.29.2/CompilerIdCXX/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:1216 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-n6iny8"
+      binary: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-n6iny8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_C_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-n6iny8'
+        
+        Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/SongShijie/mingw64/bin/mingw32-make.exe -f Makefile cmTC_43bc7/fast
+        C:/Users/SongShijie/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_43bc7.dir\\build.make CMakeFiles/cmTC_43bc7.dir/build
+        mingw32-make[1]: Entering directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-n6iny8'
+        Building C object CMakeFiles/cmTC_43bc7.dir/CMakeCCompilerABI.c.obj
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_43bc7.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles\\cmTC_43bc7.dir\\CMakeCCompilerABI.c.obj.d -o CMakeFiles\\cmTC_43bc7.dir\\CMakeCCompilerABI.c.obj -c C:\\CMake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c
+        Linking C executable cmTC_43bc7.exe
+        C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_43bc7.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\clang.exe -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_43bc7.dir\\objects1.rsp -o cmTC_43bc7.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_43bc7.lib -Xlinker /pdb:D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n6iny8\\cmTC_43bc7.pdb -Xlinker /version:0.0 
+        clang version 17.0.1
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_43bc7.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.32.31326\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.32.31326\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.19041.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.19041.0\\\\um\\\\x64" "-libpath:C:\\\\PROGRA~1\\\\LLVM\\\\lib\\\\clang\\\\17\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_43bc7.dir/CMakeCCompilerABI.c.obj /MANIFEST:EMBED /implib:cmTC_43bc7.lib "/pdb:D:\\\\MyDocument\\\\astudy\\\\testgit\\\\finaltest\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-n6iny8\\\\cmTC_43bc7.pdb" /version:0.0
+        mingw32-make[1]: Leaving directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-n6iny8'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "--version"
+      LLD 17.0.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:64 (try_compile)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-w7os6t"
+      binary: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-w7os6t"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-w7os6t'
+        
+        Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/SongShijie/mingw64/bin/mingw32-make.exe -f Makefile cmTC_b02bf/fast
+        C:/Users/SongShijie/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_b02bf.dir\\build.make CMakeFiles/cmTC_b02bf.dir/build
+        mingw32-make[1]: Entering directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-w7os6t'
+        Building CXX object CMakeFiles/cmTC_b02bf.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_b02bf.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles\\cmTC_b02bf.dir\\CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles\\cmTC_b02bf.dir\\CMakeCXXCompilerABI.cpp.obj -c C:\\CMake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        Linking CXX executable cmTC_b02bf.exe
+        C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_b02bf.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd  -v -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_b02bf.dir\\objects1.rsp -o cmTC_b02bf.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_b02bf.lib -Xlinker /pdb:D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-w7os6t\\cmTC_b02bf.pdb -Xlinker /version:0.0 
+        clang version 17.0.1
+        Target: x86_64-pc-windows-msvc
+        Thread model: posix
+        InstalledDir: C:\\PROGRA~1\\LLVM\\bin
+         "C:\\\\PROGRA~1\\\\LLVM\\\\bin\\\\lld-link" -out:cmTC_b02bf.exe "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.32.31326\\\\lib\\\\x64" "-libpath:C:\\\\Program Files\\\\Microsoft Visual Studio\\\\2022\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.32.31326\\\\atlmfc\\\\lib\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.19041.0\\\\ucrt\\\\x64" "-libpath:C:\\\\Program Files (x86)\\\\Windows Kits\\\\10\\\\Lib\\\\10.0.19041.0\\\\um\\\\x64" "-libpath:C:\\\\PROGRA~1\\\\LLVM\\\\lib\\\\clang\\\\17\\\\lib\\\\windows" -nologo -debug /subsystem:console CMakeFiles/cmTC_b02bf.dir/CMakeCXXCompilerABI.cpp.obj /MANIFEST:EMBED /implib:cmTC_b02bf.lib "/pdb:D:\\\\MyDocument\\\\astudy\\\\testgit\\\\finaltest\\\\build\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-w7os6t\\\\cmTC_b02bf.pdb" /version:0.0
+        mingw32-make[1]: Leaving directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-w7os6t'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:170 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/LLVM/bin/lld-link
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-v"
+      lld-link: warning: ignoring unknown argument '-v'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "-V"
+      lld-link: warning: ignoring unknown argument '-V'
+      lld-link: error: no input files
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:207 (cmake_determine_linker_id)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/LLVM/bin/lld-link" "--version"
+      LLD 17.0.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-bdib89"
+      binary: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-bdib89"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-bdib89'
+        
+        Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/SongShijie/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ae918/fast
+        C:/Users/SongShijie/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ae918.dir\\build.make CMakeFiles/cmTC_ae918.dir/build
+        mingw32-make[1]: Entering directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-bdib89'
+        Building CXX object CMakeFiles/cmTC_ae918.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_ae918.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_ae918.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_ae918.dir\\feature_tests.cxx.obj -c D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bdib89\\feature_tests.cxx
+        Linking CXX executable cmTC_ae918.exe
+        C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_ae918.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_ae918.dir\\objects1.rsp -o cmTC_ae918.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_ae918.lib -Xlinker /pdb:D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bdib89\\cmTC_ae918.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_ae918.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-bdib89'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "C:/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-m6fk9z"
+      binary: "D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-m6fk9z"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "C:/Program Files/LLVM/bin/clang-scan-deps.exe"
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-m6fk9z'
+        
+        Run Build Command(s): C:/CMake/bin/cmake.exe -E env VERBOSE=1 C:/Users/SongShijie/mingw64/bin/mingw32-make.exe -f Makefile cmTC_93dd1/fast
+        C:/Users/SongShijie/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_93dd1.dir\\build.make CMakeFiles/cmTC_93dd1.dir/build
+        mingw32-make[1]: Entering directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-m6fk9z'
+        Building CXX object CMakeFiles/cmTC_93dd1.dir/feature_tests.cxx.obj
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE   -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_93dd1.dir/feature_tests.cxx.obj -MF CMakeFiles\\cmTC_93dd1.dir\\feature_tests.cxx.obj.d -o CMakeFiles\\cmTC_93dd1.dir\\feature_tests.cxx.obj -c D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6fk9z\\feature_tests.cxx
+        Linking CXX executable cmTC_93dd1.exe
+        C:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_93dd1.dir\\link.txt --verbose=1
+        C:\\PROGRA~1\\LLVM\\bin\\CLANG_~1.EXE -nostartfiles -nostdlib -O0 -g -Xclang -gcodeview -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console -fuse-ld=lld-link @CMakeFiles\\cmTC_93dd1.dir\\objects1.rsp -o cmTC_93dd1.exe -Xlinker /MANIFEST:EMBED -Xlinker /implib:cmTC_93dd1.lib -Xlinker /pdb:D:\\MyDocument\\astudy\\testgit\\finaltest\\build\\CMakeFiles\\CMakeScratch\\TryCompile-m6fk9z\\cmTC_93dd1.pdb -Xlinker /version:0.0  @CMakeFiles\\cmTC_93dd1.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'D:/MyDocument/astudy/testgit/finaltest/build/CMakeFiles/CMakeScratch/TryCompile-m6fk9z'
+        
+      exitCode: 0
+...

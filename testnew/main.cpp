@@ -1,6 +1,7 @@
 #include <iostream>
 #include "hello.cpp"
-int main(int, char**){
+int main(){
+    char* a=new char[10];
     std::cout << "Hello, from testnew!\n";
     hello();
 }
