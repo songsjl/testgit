@@ -15,6 +15,7 @@ public:
   
 };
 int main() {
+  //std::cout<<std::hex<<5000<<std::endl;
   MyClass obj;
   // obj.var1* = new int(10);
   obj.var2 = 3.14f;
